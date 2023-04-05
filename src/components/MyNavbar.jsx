@@ -1,6 +1,7 @@
 import logo from "../assets/netflix_logo.png";
 import avatar from "../assets/avatar.png";
 import avatarSmall from "../assets/avatar.png";
+import { Link } from "react-router-dom";
 
 const MyNavbar = () => {
   return (
@@ -24,14 +25,14 @@ const MyNavbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#1">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#1">
+                <Link className="nav-link" to="/tv-shows">
                   Tv Shows
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#1">

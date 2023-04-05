@@ -4,7 +4,7 @@ import { Spinner } from "react-bootstrap";
 import { Alert } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
-const Home = (props) => {
+const TVShows = (props) => {
   const [HarryPotter, setHarryPotter] = useState([]);
   const [AttackOnTitan, setAttackOnTitan] = useState([]);
   const [Avengers, setAvengers] = useState([]);
@@ -91,4 +91,4 @@ const Home = (props) => {
   );
 };
 
-export default Home;
+export default TVShows;

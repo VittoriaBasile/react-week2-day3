@@ -1,8 +1,8 @@
-const MyHeader = () => {
+const MyHeader = (props) => {
   return (
     <div className="genre-details mx-md-5 mt-2">
       <div className="d-flex">
-        <h3 className="text-light me-3 me-md-5">TV Shows</h3>
+        <h3 className="text-light me-3 me-md-5">{props.title}</h3>
         <button className="btn btn-outline-secondary text-white bg-transparent dropdown-toggle genre-button">
           <span className="pe-3">Genres</span>
         </button>
